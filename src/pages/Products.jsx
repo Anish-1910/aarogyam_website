@@ -14,6 +14,14 @@ const productCategories = [
     ]
   },
   {
+    name: 'Cereals — A Closer Look',
+    icon: '📸',
+    isGallery: true,
+    photos: [
+      { src: '/images/kambu_kozhu_cholam.jpeg', title: 'Naatu Cumbu (Pearl Millet)', sub: 'Rich in iron & calcium • Aids digestion • Gluten-free' },
+    ]
+  },
+  {
     name: 'Dhall (Lentils)',
     icon: '🫘',
     description: 'Organically grown lentils, stone-ground and minimally processed to retain maximum nutrition. Our dhalls are free from artificial polishing and chemical treatment.',
@@ -21,6 +29,14 @@ const productCategories = [
       { name: 'Udad Dhall (Black Gram)', note: 'Essential for South Indian cuisine — idli, dosa, vada. Rich in protein, potassium, and iron.' },
       { name: 'Green Gram Dhall (Moong)', note: 'Light on the stomach and easy to digest. Excellent source of plant-based protein and folate.' },
       { name: 'Toor Dhall (Pigeon Pea)', note: 'The everyday sambar dhall. Rich in folic acid, protein, and complex carbohydrates.' },
+    ]
+  },
+  {
+    name: 'Dhall — A Closer Look',
+    icon: '📸',
+    isGallery: true,
+    photos: [
+      { src: '/images/toor_dhal.jpeg', title: 'Toor Dhall (Pigeon Pea)', sub: 'Essential sambar dhall • Rich in folic acid & protein' },
     ]
   },
   {
@@ -34,11 +50,31 @@ const productCategories = [
     ]
   },
   {
-    name: 'Hair Oil',
-    icon: '🧴',
-    description: 'Handcrafted herbal hair oil made with organic ingredients and traditional recipes passed down through generations.',
+    name: 'Edible Oil — A Closer Look',
+    icon: '📸',
+    isGallery: true,
+    photos: [
+      { src: '/images/sesame_oil.jpeg', title: 'Til Oil (Sesame Oil)', sub: 'Cold-pressed • Rich in antioxidants & vitamin E' },
+      { src: '/images/coconutoil.jpeg', title: 'Coconut Oil', sub: 'Pure virgin • Cold-pressed • Antimicrobial properties' },
+    ]
+  },
+  {
+    name: 'Cosmetics',
+    icon: '✨',
+    description: 'Premium handcrafted herbal cosmetics made with organic ingredients and traditional recipes. From nourishing hair oils to luxurious bath products, all made using natural methods passed down through generations.',
     items: [
       { name: "Mridhula's Organic Coconut Herbal Oil", note: "A special blend of organic coconut oil infused with carefully selected herbs. Made using traditional methods to promote hair health, prevent hair fall, and nourish the scalp naturally.", badge: 'Herbal' },
+      { name: 'Herbal Bath Powder', note: 'A luxurious blend of organic herbs and natural ingredients crafted into a soothing bath powder. Gently cleanses and nourishes the skin while providing a spa-like experience at home. Perfect for sensitive skin and all skin types.', badge: 'Natural' },
+      { name: 'Herbal Soap', note: 'Handmade herbal soap created with pure organic ingredients and traditional soap-making methods. Rich lather, natural fragrance, and skin-nourishing properties. Free from synthetic chemicals and artificial preservatives.', badge: 'Organic' },
+    ]
+  },
+  {
+    name: 'Cosmetics — A Closer Look',
+    icon: '📸',
+    isGallery: true,
+    photos: [
+      { src: '/images/herbal_bath_powder.jpeg', title: 'Herbal Bath Powder', sub: 'Luxurious blend • Organic herbs • Natural cleansing' },
+      { src: '/images/herbal_soap.jpeg', title: 'Herbal Soap', sub: 'Handmade • Pure ingredients • Skin-nourishing' },
     ]
   },
   {
@@ -72,6 +108,14 @@ const productCategories = [
       { name: 'Ridge Gourd (Peerkangai)', note: 'Low-calorie vegetable rich in dietary fiber. Good for weight management.' },
       { name: 'Coconut', note: 'Fresh organic coconuts from local farms. Used in cooking, oil extraction, and traditional preparations.' },
       { name: 'Greens (Keerai)', note: 'Assorted seasonal organic greens — incredibly nutrient-dense with iron, calcium, and vitamins.', badge: 'Rotating' },
+    ]
+  },
+  {
+    name: 'Fresh Vegetables — A Closer Look',
+    icon: '📸',
+    isGallery: true,
+    photos: [
+      { src: '/images/vegetables.jpeg', title: 'Fresh Organic Vegetables', sub: 'Freshly harvested • Pesticide-free • Peak freshness' },
     ]
   },
   {
@@ -121,6 +165,8 @@ const productCategories = [
       { src: '/images/seed-punch.jpeg', title: "Mridhula's Seed Punch", sub: 'Boosts body energy • Natural sweetness' },
       { src: '/images/sweet-balls.jpeg', title: 'Millet Sweet Balls', sub: 'Til, cumbu, varagu & paasi payaru varieties' },
       { src: '/images/coriander-packet.jpeg', title: 'Naatu Malli (Coriander)', sub: 'Single-source • Aarogyam branded • Responsibly grown' },
+      { src: '/images/coriander_seeds.jpeg', title: 'Coriander Seeds (Naatu Malli)', sub: 'Authentic dried seeds • Aromatic & flavorful' },
+      { src: '/images/elachi.jpeg', title: 'Elaichi (Cardamom)', sub: 'Queen of Spices • Premium aromatic variety' },
     ]
   },
   {
