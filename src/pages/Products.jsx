@@ -59,22 +59,22 @@ const productCategories = [
     ]
   },
   {
-    name: 'Cosmetics',
+    name: "Mridhula's Portfolio of Beauty Products",
     icon: '✨',
-    description: 'Premium handcrafted herbal cosmetics made with organic ingredients and traditional recipes. From nourishing hair oils to luxurious bath products, all made using natural methods passed down through generations.',
+    description: "Mridhula's portfolio of beauty products available only through Aarogyam. Handcrafted with premium natural ingredients and traditional recipes, these products offer excellent care for your skin and hair.",
     items: [
       { name: "Mridhula's Organic Coconut Herbal Oil", note: "A special blend of organic coconut oil infused with carefully selected herbs. Made using traditional methods to promote hair health, prevent hair fall, and nourish the scalp naturally.", badge: 'Herbal' },
-      { name: 'Herbal Bath Powder', note: 'A luxurious blend of organic herbs and natural ingredients crafted into a soothing bath powder. Gently cleanses and nourishes the skin while providing a spa-like experience at home. Perfect for sensitive skin and all skin types.', badge: 'Natural' },
-      { name: 'Herbal Soap', note: 'Handmade herbal soap created with pure organic ingredients and traditional soap-making methods. Rich lather, natural fragrance, and skin-nourishing properties. Free from synthetic chemicals and artificial preservatives.', badge: 'Organic' },
+      { name: "Mridhula's Herbal Soap", note: 'Made from leaves of neem, Indian nettle and Spanish thyme from MS Raj Thottam, Ondipulinaickanoor with camel milk. Excellent care for your skin. Pre-order welcome. Available now at Aarogyam.', badge: 'Premium' },
+      { name: "Mridhula's Herbal Bathing Powder for Babies", note: 'Premium herbal bathing powder specially formulated for babies (male, female). Made with gentle natural ingredients for delicate baby skin. Now available at Aarogyam.', badge: 'For Babies' },
     ]
   },
   {
-    name: 'Cosmetics — A Closer Look',
+    name: "Mridhula's Beauty Products — A Closer Look",
     icon: '📸',
     isGallery: true,
     photos: [
-      { src: '/images/herbal_bath_powder.jpeg', title: 'Herbal Bath Powder', sub: 'Luxurious blend • Organic herbs • Natural cleansing' },
-      { src: '/images/herbal_soap.jpeg', title: 'Herbal Soap', sub: 'Handmade • Pure ingredients • Skin-nourishing' },
+      { src: '/images/herbal_soap.jpeg', title: 'Mridhula\'s Herbal Soap', sub: 'Neem • Indian nettle • Spanish thyme • Camel milk' },
+      { src: '/images/herbal_bath_powder.jpeg', title: 'Mridhula\'s Herbal Bathing Powder for Babies', sub: 'Gentle formula • Natural ingredients • For babies (M/F)' },
     ]
   },
   {
