@@ -126,18 +126,23 @@ function About() {
           <div className="contact-details">
             <div className="contact-item">
               <div className="icon">🕘</div>
-              <div className="label">Morning Hours</div>
-              <div className="value">9:00 AM – 10:30 AM</div>
+              <div className="label">Day Hours</div>
+              <div className="value">9:30 AM – 3:00 PM</div>
             </div>
             <div className="contact-item">
               <div className="icon">🕕</div>
               <div className="label">Evening Hours</div>
-              <div className="value">6:30 PM – 8:00 PM</div>
+              <div className="value">6:00 PM – 8:30 PM</div>
             </div>
             <div className="contact-item">
               <div className="icon">📞</div>
               <div className="label">For Orders</div>
               <div className="value">70100 43267 / 94835 03392</div>
+            </div>
+            <div className="contact-item">
+              <div className="icon">✉️</div>
+              <div className="label">Email</div>
+              <div className="value">customersupport@aarogyamfoods.shop</div>
             </div>
           </div>
         </div>
